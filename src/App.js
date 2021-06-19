@@ -1,5 +1,6 @@
 import "./App.css";
 import React from "react";
+import Rows from "./components/Rows";
 
 function App() {
   return (
@@ -244,7 +245,8 @@ function App() {
             </tr>
             {/* </tbody> */}
           </table>
-          <table>
+          {/* new table */}
+          <table id="balance">
             <thead>
               <tr>
                 <th colspan="3">
@@ -259,7 +261,8 @@ function App() {
               <th id="heads">FY2022</th>
               <th id="heads">FY2023</th>
             </tr>
-            <tr>
+            <Rows start="balance" />
+            {/* <tr>
               <td></td>
               <td></td>
               <td></td>
@@ -318,7 +321,7 @@ function App() {
               <td></td>
               <td></td>
               <td></td>
-            </tr>
+            </tr> */}
           </table>
         </form>
         <script>
