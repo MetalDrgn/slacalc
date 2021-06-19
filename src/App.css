@@ -2,37 +2,106 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: white; */
+}
+
+.App-body {
+  /* background-color: #282c34; */
+
+  /* min-height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  font-family: Garamond, serif;
   color: white;
+}
+
+.fb-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: left;
+  align-items: left;
+  /* justify-content: center; */
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-size: 2rem;
+}
+
+#inp1 {
+  width: 60px;
+  font-size: 1.2rem;
+  background-color: #32353b;
+  color: white;
+}
+
+table {
+  /* border-radius: 15px 15px 0 0;
+  overflow: hidden; */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.65);
+  border-collapse: collapse;
+  /* padding: 15px; */
+  margin: 25px;
+}
+
+th,
+td {
+  border: 1px solid black;
+  /* margin: 5px 0; */
+  padding: 8px;
+  font-size: 1.2rem;
+  text-align: center;
+
+  /* border-bottom: 5px solid black; */
+  /* border-radius: 15px 15px 0 0;
+  overflow: hidden; */
+}
+
+tr:nth-of-type(even) {
+  background-color: rgb(55, 64, 78);
+}
+col #inptd {
+  /* width: 100px; */
+}
+
+#heads {
+  background-color: darkblue;
+  /* display: flex;
+  flex-direction: column; */
+  /* font-weight: bold; */
+}
+
+#badstuff {
+  color: red;
+}
+
+html {
+  background-color: #282c34;
+}
+
+#mth {
+  /* background-color: darkslategray */
+  background-color: dimgray;
+}
+
+.button {
+  font-size: 18px;
+  padding: 5px 20px;
+  background-color: darkblue;
+  /* border: 5px; */
+  color: white;
 }
