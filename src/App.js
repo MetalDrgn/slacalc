@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import Rows from "./components/Rows";
+import Rows2 from "./components/Rows2";
 
 function App() {
   return (
@@ -261,7 +261,7 @@ function App() {
               <th id="heads">FY2022</th>
               <th id="heads">FY2023</th>
             </tr>
-            <Rows start="balance" />
+            <Rows2 start="balance" />
             {/* <tr>
               <td></td>
               <td></td>
