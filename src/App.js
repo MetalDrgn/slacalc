@@ -22,7 +22,11 @@ function App() {
             <tr>
               <th id="heads">SLA start</th>
               {/* <th id="heads">COVID-19 SLA start</th> */}
-              <th id="heads">FY21 (1 Oct 2020)</th>
+              <th id="heads">
+                FY21
+                <br />
+                (1 Oct 2020)
+              </th>
             </tr>
             <tr>
               {/* <td>Total leave days</td> */}
@@ -42,7 +46,11 @@ function App() {
             </tr>
             <tr>
               <th id="heads">Adjusted SLA</th>
-              <th id="heads">FY22 (1 Oct 2021)</th>
+              <th id="heads">
+                FY22
+                <br />
+                (1 Oct 2021)
+              </th>
             </tr>
             <tr>
               <td>Total leave days</td>
@@ -58,7 +66,11 @@ function App() {
             </tr>
             <tr>
               <th id="heads">Adjusted SLA</th>
-              <th id="heads">FY23 (1 Oct 2022)</th>
+              <th id="heads">
+                FY23
+                <br />
+                (1 Oct 2022)
+              </th>
             </tr>
             <tr>
               <td>Total leave days</td>
@@ -74,7 +86,11 @@ function App() {
             </tr>
             <tr>
               <th id="heads">End COVID SLA</th>
-              <th id="heads">FY24 (1 Oct 2023)</th>
+              <th id="heads">
+                FY24
+                <br />
+                (1 Oct 2023)
+              </th>
             </tr>
             <tr>
               <td>Total leave days</td>
